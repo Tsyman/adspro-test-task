@@ -1,0 +1,26 @@
+{
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/.",
+  "name": "Adspro",
+  "short_name": "AP",
+  "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "48x48",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+  ]
+}

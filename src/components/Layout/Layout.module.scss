@@ -1,0 +1,21 @@
+.layout {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 8px;
+  overflow-x: hidden;
+  height: 100vh;
+  
+  @media (min-width: 700px) {
+    padding: 0 16px;
+  }
+
+  &.dark {
+    background: rgb(75, 75, 75);
+    color: white;
+  }
+
+  &.light {
+    color: black;
+    background-color: #f8f8f8;
+  }
+}

@@ -1,0 +1,17 @@
+.search_input {
+  border-color: black;
+  height: 30px;
+  width: 100%;
+  max-width: 350px;
+  margin-right: 20px;
+  padding: 0 5px;
+
+  &:focus {
+    outline: none;
+    border-color: initial;
+  }
+
+  &::-webkit-input-placeholder {
+    opacity: 0.5;
+  }
+}
